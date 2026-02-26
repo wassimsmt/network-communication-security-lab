@@ -1,3 +1,5 @@
+Hands-on networking and security validation lab focused on understanding real traffic behavior and defensive controls.
+
 # 🔐 Network Communication & Security Lab
 
 ## 📌 Overview
@@ -138,4 +140,5 @@ This project was conducted in a fully isolated lab environment for educational p
 ## 👤 Author
 
 Wassim Abelghouch  
+
 Cybersecurity Student | Aspiring Security Engineer
