@@ -1,0 +1,27 @@
+07:38:19.689401 IP 192.168.56.103.42690 > 192.168.56.101.22: Flags [S], seq 2987718989, win 64240, options [mss 1460,sackOK,TS val 3019879410 ecr 0,nop,wscale 10], length 0
+07:38:19.689482 IP 192.168.56.101.22 > 192.168.56.103.42690: Flags [S.], seq 2480230844, ack 2987718990, win 65160, options [mss 1460,sackOK,TS val 855499418 ecr 3019879410,nop,wscale 7], length 0
+07:38:19.691346 IP 192.168.56.103.42690 > 192.168.56.101.22: Flags [.], ack 1, win 63, options [nop,nop,TS val 3019879412 ecr 855499418], length 0
+07:38:19.691346 IP 192.168.56.103.42690 > 192.168.56.101.22: Flags [F.], seq 1, ack 1, win 63, options [nop,nop,TS val 3019879412 ecr 855499418], length 0
+07:38:19.706298 IP 192.168.56.101.22 > 192.168.56.103.42690: Flags [.], ack 2, win 510, options [nop,nop,TS val 855499435 ecr 3019879412], length 0
+07:38:19.710359 IP 192.168.56.101.22 > 192.168.56.103.42690: Flags [P.], seq 1:44, ack 2, win 510, options [nop,nop,TS val 855499439 ecr 3019879412], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14
+07:38:19.710764 IP 192.168.56.101.22 > 192.168.56.103.42690: Flags [F.], seq 44, ack 2, win 510, options [nop,nop,TS val 855499439 ecr 3019879412], length 0
+07:38:19.711058 IP 192.168.56.103.42690 > 192.168.56.101.22: Flags [R], seq 2987718991, win 0, length 0
+07:38:19.711059 IP 192.168.56.103.42690 > 192.168.56.101.22: Flags [R], seq 2987718991, win 0, length 0
+07:38:28.969994 IP 192.168.56.103.44970 > 192.168.56.101.22: Flags [S], seq 1472934388, win 64240, options [mss 1460,sackOK,TS val 3019888696 ecr 0,nop,wscale 10], length 0
+07:38:28.970051 IP 192.168.56.101.22 > 192.168.56.103.44970: Flags [S.], seq 1259526697, ack 1472934389, win 65160, options [mss 1460,sackOK,TS val 855508698 ecr 3019888696,nop,wscale 7], length 0
+07:38:28.970855 IP 192.168.56.103.44970 > 192.168.56.101.22: Flags [.], ack 1, win 63, options [nop,nop,TS val 3019888697 ecr 855508698], length 0
+07:38:28.970855 IP 192.168.56.103.44970 > 192.168.56.101.22: Flags [F.], seq 1, ack 1, win 63, options [nop,nop,TS val 3019888697 ecr 855508698], length 0
+07:38:28.981269 IP 192.168.56.101.22 > 192.168.56.103.44970: Flags [P.], seq 1:44, ack 2, win 510, options [nop,nop,TS val 855508709 ecr 3019888697], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14
+07:38:28.981659 IP 192.168.56.101.22 > 192.168.56.103.44970: Flags [F.], seq 44, ack 2, win 510, options [nop,nop,TS val 855508710 ecr 3019888697], length 0
+07:38:28.986023 IP 192.168.56.103.44970 > 192.168.56.101.22: Flags [R], seq 1472934390, win 0, length 0
+07:38:28.986023 IP 192.168.56.103.44970 > 192.168.56.101.22: Flags [R], seq 1472934390, win 0, length 0
+07:38:42.835975 IP 192.168.56.103.33632 > 192.168.56.101.22: Flags [S], seq 787624678, win 64240, options [mss 1460,sackOK,TS val 3019902569 ecr 0,nop,wscale 10], length 0
+07:38:42.836047 IP 192.168.56.101.22 > 192.168.56.103.33632: Flags [S.], seq 1699569744, ack 787624679, win 65160, options [mss 1460,sackOK,TS val 855522564 ecr 3019902569,nop,wscale 7], length 0
+07:38:42.837637 IP 192.168.56.103.33632 > 192.168.56.101.22: Flags [.], ack 1, win 63, options [nop,nop,TS val 3019902570 ecr 855522564], length 0
+07:38:42.837637 IP 192.168.56.103.33632 > 192.168.56.101.22: Flags [F.], seq 1, ack 1, win 63, options [nop,nop,TS val 3019902570 ecr 855522564], length 0
+07:38:42.839734 IP 192.168.56.101.22 > 192.168.56.103.33632: Flags [.], ack 2, win 510, options [nop,nop,TS val 855522568 ecr 3019902570], length 0
+07:38:42.854650 IP 192.168.56.101.22 > 192.168.56.103.33632: Flags [P.], seq 1:44, ack 2, win 510, options [nop,nop,TS val 855522583 ecr 3019902570], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14
+07:38:42.855189 IP 192.168.56.101.22 > 192.168.56.103.33632: Flags [F.], seq 44, ack 2, win 510, options [nop,nop,TS val 855522583 ecr 3019902570], length 0
+07:38:42.855546 IP 192.168.56.103.33632 > 192.168.56.101.22: Flags [R], seq 787624680, win 0, length 0
+07:38:42.855999 IP 192.168.56.103.33632 > 192.168.56.101.22: Flags [R], seq 787624680, win 0, length 0
+07:38:44.493646 IP 192.168.56.103.33640 > 192.168.56.101.22: Flags [S

@@ -1,0 +1,24 @@
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/usr/lib/systemd/system/ssh.service; disabled; preset: enabled)
+     Active: active (running) since Thu 2026-02-26 03:30:43 UTC; 3h 15min ago
+TriggeredBy: ● ssh.socket
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 1949 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
+   Main PID: 1950 (sshd)
+      Tasks: 1 (limit: 9432)
+     Memory: 2.2M (peak: 5.5M)
+        CPU: 217ms
+     CGroup: /system.slice/ssh.service
+             └─1950 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Feb 26 06:03:07 wsmubuntuserver sshd[2690]: pam_unix(sshd:session): session closed for user wsmsmt
+Feb 26 06:08:48 wsmubuntuserver sshd[2805]: Accepted password for wsmsmt from 192.168.56.1 port 20926 ssh2
+Feb 26 06:08:48 wsmubuntuserver sshd[2805]: pam_unix(sshd:session): session opened for user wsmsmt(uid=1000) by wsmsmt(uid=0)
+Feb 26 06:08:48 wsmubuntuserver sshd[2805]: pam_unix(sshd:session): session closed for user wsmsmt
+Feb 26 06:10:31 wsmubuntuserver sshd[2867]: Accepted password for wsmsmt from 192.168.56.1 port 20930 ssh2
+Feb 26 06:10:31 wsmubuntuserver sshd[2867]: pam_unix(sshd:session): session opened for user wsmsmt(uid=1000) by wsmsmt(uid=0)
+Feb 26 06:10:32 wsmubuntuserver sshd[2867]: pam_unix(sshd:session): session closed for user wsmsmt
+Feb 26 06:41:53 wsmubuntuserver sshd[3109]: Accepted password for wsmsmt from 192.168.56.1 port 13705 ssh2
+Feb 26 06:41:53 wsmubuntuserver sshd[3109]: pam_unix(sshd:session): session opened for user wsmsmt(uid=1000) by wsmsmt(uid=0)
+Feb 26 06:41:54 wsmubuntuserver sshd[3109]: pam_unix(sshd:session): session closed for user wsmsmt
