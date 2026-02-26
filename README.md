@@ -104,6 +104,7 @@ VirtualBox environment with:
 
 ## 📂 Project Structure
 
+```
 Network_Communication_Security_Lab/
 │
 ├── README.md
@@ -123,7 +124,7 @@ Network_Communication_Security_Lab/
 │ ├── tcpdump_handshake_http.txt
 │ └── tcpdump_handshake_ssh.txt
 └── screenshots/
-
+```
 
 ---
 
@@ -159,5 +160,6 @@ This project was conducted in a fully isolated lab environment for educational p
 Wassim Abelghouch  
 
 Cybersecurity Student | Aspiring Security Engineer
+
 
 
