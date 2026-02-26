@@ -2,6 +2,26 @@ Hands-on networking and security validation lab focused on understanding real tr
 
 # 🔐 Network Communication & Security Lab
 
+## 🧭 Lab Architecture
+
+             Host-Only Network
+
++---------------------+        Network Traffic        +----------------------+
+|     Kali Linux      |  <------------------------->  |     Ubuntu Server    |
+|   (Test / Attacker) |                               |      (Target)        |
+|                     |                               |                      |
+| - Nmap Scanning     |                               | - SSH Service (22)   |
+| - Netcat Testing    |                               | - Nginx Web (80)     |
+| - Traffic Analysis  |                               | - UFW Firewall       |
++---------------------+                               +----------------------+
+
+Purpose:
+- Validate network communication
+- Analyze TCP behavior
+- Apply firewall hardening
+
+---
+
 ## 📌 Overview
 
 This project demonstrates practical networking fundamentals and basic host hardening in a controlled virtual lab environment.
@@ -142,3 +162,4 @@ This project was conducted in a fully isolated lab environment for educational p
 Wassim Abelghouch  
 
 Cybersecurity Student | Aspiring Security Engineer
+
