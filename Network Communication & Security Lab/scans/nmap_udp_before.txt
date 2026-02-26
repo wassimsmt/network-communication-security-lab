@@ -1,8 +1,0 @@
-# Nmap 7.95 scan initiated Thu Feb 26 07:10:10 2026 as: /usr/lib/nmap/nmap -sU --top-ports 50 -oN /tmp/nmap_udp_before.txt 192.168.56.101
-Nmap scan report for 192.168.56.101
-Host is up (0.0016s latency).
-All 50 scanned ports on 192.168.56.101 are in ignored states.
-Not shown: 50 open|filtered udp ports (no-response)
-MAC Address: 08:00:27:66:2B:CE (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
-
-# Nmap done at Thu Feb 26 07:10:12 2026 -- 1 IP address (1 host up) scanned in 2.33 seconds
