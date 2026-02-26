@@ -5,7 +5,7 @@ Hands-on networking and security validation lab focused on understanding real tr
 ## 🧭 Lab Architecture
 
 ```
-             Host-Only Network
+                              Host-Only Network
 
 +---------------------+        Network Traffic        +----------------------+
 |     Kali Linux      |  <------------------------->  |     Ubuntu Server    |
@@ -160,6 +160,7 @@ This project was conducted in a fully isolated lab environment for educational p
 Wassim Abelghouch  
 
 Cybersecurity Student | Aspiring Security Engineer
+
 
 
 
