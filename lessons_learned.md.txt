@@ -1,0 +1,7 @@
+# Lessons Learned
+
+- IP delivers host-to-host; ports deliver to the correct service.
+- TCP reliability can be observed via SYN/SYN-ACK/ACK.
+- UDP scanning is slower and results can be "open|filtered".
+- Default deny inbound + explicit allow rules reduces attack surface.
+- Logs + captures + before/after scans make changes defensible and professional.
